@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../practicas/formulario1"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "narvbar+"
+	}
+}

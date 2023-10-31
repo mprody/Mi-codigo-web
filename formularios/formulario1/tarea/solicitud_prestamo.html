@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseños.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="mariorobertoh99@gmail.com" method="post" enctype="text/plain">
+        <fieldset style="display: flex; flex-direction: column; justify-content: center; align-items: center;
+        gap: 28px; width: 400px;">
+            <h2>Llenar el formulario completo:</h2>
+            <ul>
+                <li style="list-style: none;">
+                    <label id="nombre" for="nombre">Nombre Completo</label>
+                    <input class="input" id="nombre" type="text" required width="300px">
+                </li>
+                <li style="list-style: none;">
+                    <label id="mail" for="mail">Correo de Contacto</label>
+                    <input class="input" id="mail" type="text" name="mail" placeholder="xxx@gmail.com" required 
+                    pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$">
+
+                </li>
+                <li style="list-style: none;">
+                    <label id="numeroTel" for="numeroTel">Numero de telefono:</label>
+                    <input class="input" id="numeroTel" type="text" required width="300px">
+                </li>
+                <li style="list-style: none;">
+                    <label id="direccion" for="direccion">Direccion actual</label>
+                    <input class="input" id="direccion" type="text" required width="300px">
+                </li>
+                <li style="list-style: none;">
+                    <label id="ciudad" for="ciudad">Ciudad </label>
+                    <input class="input" id="direccion" type="text" required width="300px">
+                </li>
+                <label for="departamentos">Departamentos</label>
+                <select name="departamento" id="departamento">
+                    <option value="ATL">Atlantida</option>
+                    <option value="GD">Gracias a Dios</option>
+                    <option value="CN">Colon</option>
+                    <option value="CH">Choluteca</option>
+                    <option value="CA">Comayagua</option>
+                    <option value="CS">Cortes</option>
+                </select>
+                
+                <li style="list-style: none;">
+                <label id="codigoP" for="codigoP">Codigo postal </label>
+                <input class="input" id="codigoP" type="text" required width="300px">
+                </li>
+                <h3>Nivel de estudio</h3>
+                <input type="radio" id="PR" name="educacion" value="HTML">
+                <label for="PR">Preparatoria</label>
+                <input type="radio" id="LC" name="educacion" value="HTML">
+                <label for="LC">Licenciatura</label>        
+                <input type="radio" id="MA" name="educacion" value="HTML">
+                <label for="MA">Maestria</label>        
+                <input type="radio" id="Dr" name="educacion" value="HTML">
+                <label for="Dr">Doctorado</label>
+                <h3>Cursos</h3>
+                <input type="radio" id="CC" name="educacion" value="HTML">
+                <label for="CC">Ciencias de la computacion</label>
+                <input type="radio" id="ING" name="educacion" value="HTML">
+                <label for="ING">Ingenieria</label>        
+                <input type="radio" id="ECO" name="educacion" value="HTML">
+                <label for="ECO">Economia</label>        
+                <input type="radio" id="AT" name="educacion" value="HTML">
+                <label for="AT">Artes</label>
+                <input type="radio" id="otr" name="educacion" value="HTML">
+                <label for="otr">otro</label>       
+                <li style="list-style: none;"><br> 
+                <label id="mPrestamo" for="mPrestamo">Monto del prestamo </label>
+                        <input class="input" id="direccion" type="text" required width="300px">
+                </li>
+                <label for="">Razon por la cual pide el prestamo</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>                
+                   
+                
+                <li style="list-style: none;">
+                        <label for="contactar"></label>
+                        <button style="background-color: rgb(255, 0, 76);" type="submit">Contactar</button>
+                    
+                </li> 
+            </ul>
+        </fieldset>
+
+    </form>
+</body>
+<script src="validacion.js"></script>
+</html>
